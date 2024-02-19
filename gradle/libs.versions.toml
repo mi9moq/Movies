@@ -8,6 +8,7 @@ compose-bom = "2024.02.00"
 mvikotlin = "3.2.1"
 decompose = "2.1.2"
 retrofit = "2.9.0"
+ksp = "1.9.22-1.0.16"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -33,6 +34,7 @@ retorfit-gsonConverter = { group = "com.squareup.retrofit2", name = "converter-g
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
 [bundles]
 mvi = ["mvikotlin-core", "mvikotlin-main", "mvikotlin-coroutines"]

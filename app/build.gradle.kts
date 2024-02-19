@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -61,4 +62,6 @@ dependencies {
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
     debugImplementation(libs.ui.tooling)
+
+    implementation(libs.bundles.retrofit)
 }
