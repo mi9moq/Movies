@@ -11,5 +11,4 @@ interface MoviesApi {
         @Query("type") type: String = "TOP_250_MOVIES",
         @Query("page") page: Int = 1
     ): MoviesResponse
-
 }
