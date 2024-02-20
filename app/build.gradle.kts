@@ -64,4 +64,7 @@ dependencies {
     debugImplementation(libs.ui.tooling)
 
     implementation(libs.bundles.retrofit)
+
+    implementation(libs.dagger.core)
+    ksp(libs.dagger.compiler)
 }
