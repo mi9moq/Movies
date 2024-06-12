@@ -1,17 +1,17 @@
 [versions]
-agp = "8.2.2"
+agp = "8.4.2"
 kotlin = "1.9.22"
-core-ktx = "1.12.0"
-lifecycle-runtime-ktx = "2.7.0"
-activity-compose = "1.8.2"
-compose-bom = "2024.02.00"
-mvikotlin = "3.2.1"
-decompose = "2.1.2"
-retrofit = "2.9.0"
+core-ktx = "1.13.1"
+lifecycle-runtime-ktx = "2.8.1"
+activity-compose = "1.9.0"
+compose-bom = "2024.05.00"
+mvikotlin = "4.1.0"
+decompose = "3.0.0"
+retrofit = "2.11.0"
 ksp = "1.9.22-1.0.16"
 dagger = "2.50"
-paging = "3.2.1"
-paging_compose = "3.3.0-alpha03"
+paging = "3.3.0"
+paging_compose = "3.3.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
