@@ -1,6 +1,6 @@
-package com.mironov.movies.data.remote.api
+package com.mironov.movies.data.network.api
 
-import com.mironov.movies.data.remote.models.MoviesResponse
+import com.mironov.movies.data.network.models.MoviesResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

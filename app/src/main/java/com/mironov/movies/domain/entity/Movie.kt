@@ -1,6 +1,6 @@
 package com.mironov.movies.domain.entity
 
-import com.mironov.movies.data.remote.models.Genre
+import com.mironov.movies.data.network.models.Genre
 
 data class Movie(
     val id: Int,

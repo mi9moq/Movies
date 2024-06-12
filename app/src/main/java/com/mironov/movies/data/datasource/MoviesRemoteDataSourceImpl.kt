@@ -1,7 +1,7 @@
 package com.mironov.movies.data.datasource
 
-import com.mironov.movies.data.remote.api.MoviesApi
-import com.mironov.movies.data.remote.models.MovieDto
+import com.mironov.movies.data.network.api.MoviesApi
+import com.mironov.movies.data.network.models.MovieDto
 import javax.inject.Inject
 
 class MoviesRemoteDataSourceImpl @Inject constructor(

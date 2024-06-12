@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.kotlinx.serialization)
     alias(libs.plugins.ksp)
 }
 
@@ -64,6 +65,7 @@ dependencies {
     debugImplementation(libs.ui.tooling)
 
     implementation(libs.bundles.retrofit)
+    implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.dagger.core)
     ksp(libs.dagger.compiler)
